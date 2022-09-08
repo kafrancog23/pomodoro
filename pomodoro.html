@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pomodoro.css">
+    <title>Pomodoro</title>
+</head>
+<body>
+    <header class="title__pomodoro">
+        <h2 class=" pomodoro_kevin">Pomodoro🍅</h2>
+    </header>
+    <div class="pomodoro__container">
+
+        
+
+        <div class="row__container clock__container">
+            <h2 id="clock">
+                25:00
+            </h2>
+            <!--inputs-->
+            <div class="input__container">
+                <label for="circles__input">Pomodoro Cycles</label>
+                <input type="number" id="circles__input" value="1">
+            </div>
+        </div>
+
+
+        <div class="row__container start__container">
+            <button id="startButton">Start</button>
+        </div>
+
+
+        <div class="row__container settings__container">
+            <div class="input__container">
+                <label for="work__time">Work Time</label>
+                <input type="text" id="work__time" value="25">
+            </div>
+            <div class="input__container">
+                <label for="break__time">Break time</label>
+                <input type="text" id="break__time" value="5">
+            </div>
+            <div class="input__container">
+                <label for="rest__time">Rest time</label>
+                <input type="text" id="rest__time" value="15">
+            </div>
+        </div>
+
+        
+    </div>
+    <script src="./pomodoro.js"></script>
+</body>
+</html>
